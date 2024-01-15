@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap');
+
+*,
+img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common style  */
+.switch-off {
+    display: none;
+}
+
+body {
+    max-width: 1340px;
+    font-family: 'Mulish', sans-serif;
+    margin: auto;
+
+}
+
+.container {
+    max-width: 1080px;
+    margin: auto;
+    /* border: 2px solid blue; */
+}
+
+:root {
+    --deep-black: color: #131318;
+    --light-black: color: rgba(19, 19, 24, 0.70);
+    --orange: #FF5400;
+}
+.main-btn{
+    width: 174px;
+height: 52px; 
+border-radius: 8px;
+background-color:var(--orange);
+color: white;
+font-weight: 800;
+font-size: 18px;
+border:2px solid transparent;
+margin-top: 10px;
+cursor: pointer;
+transition: 1s;
+}
+.main-btn:hover{
+    color: var(--orange);
+    background-color: wheat;
+    border: 2px solid var(--orange);
+}
+
+
+/* main-style */
+/* navbar styles form here */
+nav {
+    padding: 30px 0;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-logo-title h3 {
+    color: var(--deep-black);
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.nav-item ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item ul li {
+    list-style: none;
+    padding-left: 35px;
+}
+
+ul li a .active {
+    color: var(--orange) !important;
+}
+
+.nav-item ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 800;
+    color: #424247;
+}
+
+.nav-item ul li a:hover {
+    color: var(--orange);
+}
+
+/* navbar style end */
+
+
+
+
+/* travel banner css start */
+.banner {
+    margin: auto;
+}
+
+.banner-main {
+    height: 500px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 10%, rgba(19, 19, 24, 0.00) 100%), url(../Images/bgc.png) no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.banner-content {
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+
+
+}
+
+.banner-h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.banner-tag {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+    padding: 40px 0;
+
+}
+
+.banner-form {
+    margin: auto;
+    width: min-content;
+    gap: 15px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-input-icon {
+    position: relative;
+}
+
+.banner-form input {
+    width: 150px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    padding-left: 10px;
+}
+
+.banner-form input::placeholder {
+    font-weight: 800;
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.banner-input-icon i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.banner-btn {
+    color: wheat;
+}
+
+.banner-btn button {
+    width: 140px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 400;
+    background-color: var(--orange);
+    color: white;
+    font-size: 16px;
+}
+
+.banner-btn i {
+    padding-right: 10px;
+}
+
+/* travel banner css end */
+
+/* travel banner  start */
+.popular{
+    
+}
+.popular-main {
+    display: flex;
+    gap:100px;
+}
+.popular-img img{
+    width:auto;
+}
+.popular-content > h2{
+    color:var(--deep-black);
+text-align: left;
+font-size:38px;
+font-weight: 800;
+text-transform: capitalize;
+}
+.popular-content > p{
+    color: var(--light-black);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+padding:10px;
+}
+.popular-content ul{
+   
+    padding:5px 0px 0px 30px;
+    
+}
+.popular-content ul li{
+  padding-bottom:10px ;
+  color: var(--light-black);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+}
+
+/* travel banner  send */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

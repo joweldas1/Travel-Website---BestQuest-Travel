@@ -1,0 +1,28 @@
+@media screen  and (max-width:600px) {
+
+    .popular-main{
+        padding: 0 30px;
+    }
+    .popular-main{
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        gap: 30px;
+    }
+    .popular-img img{
+        width:auto;
+        margin: auto;
+    }
+    .popular-content > p{
+        padding: 20px 0;
+    }
+    .popular-content ul li{
+        padding: 15px 0;
+    }
+
+
+
+
+
+
+}
