@@ -1,5 +1,5 @@
 @media screen  and (max-width:600px) {
-
+  /* popular part */
     .popular-main{
         padding: 0 30px;
     }
@@ -18,6 +18,11 @@
     }
     .popular-content ul li{
         padding: 15px 0;
+    }
+
+    /* chose-card-part */
+    .choose-card{
+        grid-template-columns: repeat(1, 1fr);
     }
 
 

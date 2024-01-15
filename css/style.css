@@ -16,15 +16,12 @@ body {
     max-width: 1340px;
     font-family: 'Mulish', sans-serif;
     margin: auto;
-
 }
-
 .container {
     max-width: 1080px;
     margin: auto;
     /* border: 2px solid blue; */
 }
-
 :root {
     --deep-black: color: #131318;
     --light-black: color: rgba(19, 19, 24, 0.70);
@@ -48,7 +45,22 @@ transition: 1s;
     background-color: wheat;
     border: 2px solid var(--orange);
 }
-
+.custom-header{
+    color:var(--deep-black);
+    font-size:38px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.custom-p-tag{
+    color: var(--light-black);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding:10px;
+    width: 620px;
+    margin: auto;
+}
+.center{text-align: center;}
 
 /* main-style */
 /* navbar styles form here */
@@ -215,12 +227,9 @@ ul li a .active {
 .popular-img img{
     width:auto;
 }
+
 .popular-content > h2{
-    color:var(--deep-black);
 text-align: left;
-font-size:38px;
-font-weight: 800;
-text-transform: capitalize;
 }
 .popular-content > p{
     color: var(--light-black);
@@ -243,7 +252,34 @@ line-height: 26px;
 }
 
 /* travel banner  send */
+/* why choose us part start*/
+.choose-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content:space-around;
+    align-items: center;
+    justify-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+.choose-card-area-center{
+    margin: auto;
+    margin-top: 30px;
+}
+.choose-card-area{
+    width: 550px;
+    height: 250px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 30px;
+    
+}
+.choose-card-area > h3{
+    padding: 15px 0;
+}
 
+/* why choose us part end */
 
 
 
