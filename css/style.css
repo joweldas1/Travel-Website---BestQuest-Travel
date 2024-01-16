@@ -17,50 +17,59 @@ body {
     font-family: 'Mulish', sans-serif;
     margin: auto;
 }
+
 .container {
     max-width: 1080px;
     margin: auto;
     /* border: 2px solid blue; */
 }
+
 :root {
     --deep-black: color: #131318;
     --light-black: color: rgba(19, 19, 24, 0.70);
     --orange: #FF5400;
 }
-.main-btn{
+
+.main-btn {
     width: 174px;
-height: 52px; 
-border-radius: 8px;
-background-color:var(--orange);
-color: white;
-font-weight: 800;
-font-size: 18px;
-border:2px solid transparent;
-margin-top: 10px;
-cursor: pointer;
-transition: 1s;
+    height: 52px;
+    border-radius: 8px;
+    background-color: var(--orange);
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+    border: 2px solid transparent;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 1s;
 }
-.main-btn:hover{
+
+.main-btn:hover {
     color: var(--orange);
     background-color: wheat;
     border: 2px solid var(--orange);
 }
-.custom-header{
-    color:var(--deep-black);
-    font-size:38px;
+
+.custom-header {
+    color: var(--deep-black);
+    font-size: 38px;
     font-weight: 800;
     text-transform: capitalize;
 }
-.custom-p-tag{
+
+.custom-p-tag {
     color: var(--light-black);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-   
+
     width: 620px;
     margin: auto;
 }
-.center{text-align: center;}
+
+.center {
+    text-align: center;
+}
 
 /* main-style */
 /* navbar styles form here */
@@ -125,7 +134,7 @@ ul li a .active {
 .banner-main {
     height: 500px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 10%, rgba(19, 19, 24, 0.00) 100%), url('../images/bgc.png') no-repeat;
-    background-image:;
+    background-image: ;
     background-position: center;
     display: flex;
     align-items: center;
@@ -219,102 +228,121 @@ ul li a .active {
 /* travel banner css end */
 
 /* popular banner  start */
-.popular{
+.popular {
     margin-bottom: 100px;
 }
+
 .popular-main {
     display: flex;
-    gap:50px;
+    gap: 50px;
     max-height: 100vh;
 }
-.popular-img img{
-   width: 100%;
-   padding-left: 30px;
+
+.popular-img img {
+    width: 100%;
+    padding-left: 30px;
 }
 
-.popular-content{
+.popular-content {
     width: 50%;
 }
-.popular-content > h2{
-text-align: left;
+
+.popular-content>h2 {
+    text-align: left;
 }
-.popular-content > p{
+
+.popular-content>p {
     color: var(--light-black);
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-padding:10px;
-width: 550px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 10px;
+    width: 550px;
 }
-.popular-content ul{
-   
-    padding:5px 0px 0px 30px;
-    
+
+.popular-content ul {
+
+    padding: 5px 0px 0px 30px;
+
 }
-.popular-content ul li{
-  padding-bottom:10px ;
-  color: var(--light-black);
-font-size: 16px;
-font-weight: 400;
-line-height: 26px; 
+
+.popular-content ul li {
+    padding-bottom: 10px;
+    color: var(--light-black);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 /* popular banner  send */
 
 /* destination style start */
-.destination-main p{
-    padding:20px 0 30px 0;
+.destination-main p {
+    padding: 20px 0 30px 0;
 }
-.destination-img-bar{
+
+.destination-img-bar {
     height: auto;
 }
-.destination-img img{
+
+.destination-img img {
     height: 280px;
 }
-.destination-img-bar{
+
+.destination-img-bar {
     display: flex;
     flex-direction: column;
-    
+
     width: 100%;
 }
+
 #row-1 {
     display: flex;
     gap: 10px;
     width: 100%;
 }
-#img-1{
+
+#img-1 {
     width: 50%;
 }
-#img-2{
+
+#img-2 {
     width: 50%;
 }
-#row-2{
+
+#row-2 {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
     gap: 10px;
-    width:100%; 
-        /* width: 100%;    */
+    width: 100%;
+    /* width: 100%;    */
 }
-#row-2 img:nth-child(1){
+
+#row-2 img:nth-child(1) {
     width: 25%;
 }
-#row-2 img:nth-child(2){
+
+#row-2 img:nth-child(2) {
     width: 50%;
 }
-#row-2 img:nth-child(3){
+
+#row-2 img:nth-child(3) {
     width: 25%;
-   }
-#row-3{
+}
+
+#row-3 {
     display: flex;
     gap: 10px;
     width: 100%;
     margin-top: 10px;
 }
-#row-3 img:nth-child(1){
+
+#row-3 img:nth-child(1) {
     width: 50%;
 }
-#row-3 img:nth-child(2){
+
+#row-3 img:nth-child(2) {
     width: 50%;
 }
 
@@ -323,33 +351,138 @@ line-height: 26px;
 
 
 /* why choose us part start*/
-.choose-card{
+.choose-card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     justify-items: center;
     gap: 30px;
     margin-top: 40px;
 }
-.choose-card-area-center{
+
+.choose-card-area-center {
     margin: auto;
     margin-top: 30px;
 }
-.choose-card-area{
+
+.choose-card-area {
     width: 550px;
     height: 250px;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
     padding: 30px;
-    
+
 }
-.choose-card-area > h3{
+
+.choose-card-area>h3 {
     padding: 15px 0;
 }
 
 /* why choose us part end */
+/* dicsounts and pricing */
+.pricing{
+    width: 100%;
+    border-radius: 16px;
+}
+.pricing-main {
+    background: url('../images/pricing-background.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    background-color: red;
+    /* position: relative; */
+    display:flex;
+    justify-content: flex-end;  
+    padding:55px 55px 0 55px;
+    margin-bottom: 50px;
+}
+
+.pricing-banner  {
+    width: 579px;
+    height: 440px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    /* position: absolute;
+    right: 50px;
+    transform: translateY(50px) */
+}
+
+.pricing-banner-container {
+    width: 479px;
+    height: 309px;
+    margin: auto;
+    margin-top: 50px;
+ 
+}
+
+.pricing-icon {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.pricing-icon-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pricing-icon-content>i {
+    color: #FF5400;
+    font-size: 24px;
+}
+
+.pricing-icon-content {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.pricing-text-content > h2 {
+    color: var(--light-black);
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.pricing-text-content > p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+   
+}
+
+.pricing-text-content > h4 {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 20px 0;
+}
+
+.pricing-btn {
+    background: #FF5400;
+    width: 150px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    color: #FFF;
+font-size: 20px;
+font-weight: 800;
+outline:none;
+border: none;
+}
+.second-discount{
+   justify-content: flex-start !important;
+}
+
+
+/* dicsount price section end */
 
 
 
@@ -367,3 +500,76 @@ line-height: 26px;
 
 
 
+
+
+
+/* footer part styles start */
+.footer {
+
+    background-color: rgba(19, 19, 24, 0.05);
+    /* background-color:violet */
+    ;
+
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 470px;
+
+}
+
+.footer-header {
+    display: flex;
+}
+
+.footer-h2 {
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer-p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    white-space: pre-line;
+    padding: 20px 0;
+}
+
+.footer-icon {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 80px;
+}
+
+.footer-icon li {
+    padding: 0 14px;
+    border: 2px solid rgb(193, 28, 28), 30px solid black;
+
+}
+
+footer li i {
+    font-size: 30px;
+    height: 40x;
+    width: 40px;
+    outline: 2px solid rgb(0, 0, 0);
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 100%;
+}
+
+.footer-copywrite {
+    padding-top: 1000px;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* footer part styles end */

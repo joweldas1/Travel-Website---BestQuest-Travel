@@ -56,3 +56,59 @@
   #row-3 img:nth-child(2) {
     width: 100%;
   }
+
+  .footer-p{
+    white-space:unset;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .pricing{
+    width: min-content;
+    height: min-content;
+    margin: auto;
+    border-radius: 80px;
+    margin-bottom: 60px;
+  }
+  .pricing-main{
+    display:flex;
+    justify-content: center;
+    height: 580px;  
+
+  
+  }
+  .pricing-banner  {
+    width: min-content;
+    height: min-content;
+  padding: 30px 30px;
+    margin-top: 150px;
+    
+  }
+  .pricing-banner-container {
+    width: 300px;
+    height: 290px;
+    margin: auto;
+
+ 
+}
+  .pricing-text-content > p{
+    white-space: nowrap; /* Prevent line breaks */
+    overflow: hidden; /* Hide overflowing content */
+    text-overflow: ellipsis; /* Display an ellipsis (...) for overflow */
+    max-width: 100%; 
+  }
+  .pricing-icon{
+    flex-wrap: wrap;
+    padding: 5px 0;
+  }
+
+
+}
