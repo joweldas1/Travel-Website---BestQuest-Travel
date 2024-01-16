@@ -20,14 +20,31 @@
  .choose-card{
         grid-template-columns: repeat(1, 1fr);
     }
+    .choose-main p{
+      width: 80%;
+  }
+  .destination{
+    margin: 0 20px; 
+   
+  }
+    .destination-main p{width: auto;}
+  
+
     .choose-card-area p{
     }
-    .choose-main p{
-        width: 80%;
+    .destination-img-bar{
+      
     }
-   
-   
-
-
+    #row-1 , #row-2 , #row-3 {
+    flex-direction: column;
+  
+    }
+#img-1 , #img-2 , #row-2 img:nth-child(1) , #row-2 img:nth-child(2) , #row-2 img:nth-child(3) , #row-3 img:nth-child(1) , #row-3 img:nth-child(2){
+  width:100%;
 }
+
+   
+
+
+
 
