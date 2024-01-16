@@ -253,8 +253,7 @@ ul li a .active {
 
 .popular-main {
     display: flex;
-    gap: 50px;
-    max-height: 100vh;
+    gap: 40px;
 }
 
 .popular-img img {
