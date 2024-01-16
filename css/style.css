@@ -484,6 +484,45 @@ border: none;
 
 /* dicsount price section end */
 
+/* banner-video styles start */
+.banner-video-content-main{
+    padding-top: 30px;
+}
+.banner-video-content-main > h3{
+    color: #131318;
+font-size: 35px;
+font-weight: 800;
+line-height: 40px; 
+}
+.banner-video-content-main > p{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+padding: 15px 0;
+}
+.banner-video-ul {
+    padding: 0px 30px;
+}
+.banner-video-ul li{
+    color:var(--deep-black);
+font-size: 15 px;
+font-weight: 700;
+line-height: 26px; 
+margin-top: 10px;
+}
+.banner-video-content{
+    display: flex;
+    gap: 25px;
+
+}
+.banner-video-content-video video source{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+
+}
+/* banner-video styles end */
+
 
 
 
