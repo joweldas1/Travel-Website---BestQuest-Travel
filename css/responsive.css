@@ -1,50 +1,58 @@
-@media screen  and (max-width:600px) {
+@media screen and (max-width:600px) {
+
   /* popular part */
-  .popular-main{
+  .popular-main {
     flex-direction: column;
     width: 90%;
   }
-  .popular-content{
-    width: 100%;
-}
 
-.popular-img img{
+  .popular-content {
+    width: 100%;
+  }
+
+  .popular-img img {
     width: 100%;
     margin: 0;
     padding: 0;
-}
-.popular-content > p{
-    
-}
-
- .choose-card{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .choose-main p{
-      width: 80%;
   }
-  .destination{
-    margin: 0 20px; 
-   
-  }
-    .destination-main p{width: auto;}
-  
 
-    .choose-card-area p{
-    }
-    .destination-img-bar{
-      
-    }
-    #row-1 , #row-2 , #row-3 {
+  .popular-content>p {}
+
+  .choose-card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .choose-main p {
+    width: 80%;
+  }
+
+  .destination {
+    margin: 0 20px;
+
+  }
+
+  .destination-main p {
+    width: auto;
+  }
+
+
+  .choose-card-area p {}
+
+  .destination-img-bar {}
+
+  #row-1,
+  #row-2,
+  #row-3 {
     flex-direction: column;
-  
-    }
-#img-1 , #img-2 , #row-2 img:nth-child(1) , #row-2 img:nth-child(2) , #row-2 img:nth-child(3) , #row-3 img:nth-child(1) , #row-3 img:nth-child(2){
-  width:100%;
-}
 
-   
+  }
 
-
-
-
+  #img-1,
+  #img-2,
+  #row-2 img:nth-child(1),
+  #row-2 img:nth-child(2),
+  #row-2 img:nth-child(3),
+  #row-3 img:nth-child(1),
+  #row-3 img:nth-child(2) {
+    width: 100%;
+  }
