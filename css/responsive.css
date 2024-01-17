@@ -44,6 +44,34 @@
 
   }
 
+
+
+/* destinaiton */
+.destination-container {
+  width: 600px;
+  margin: auto;
+}
+.row {
+  justify-content: center;
+  flex-direction: column;
+  width: 100%; 
+  padding: 0;
+}
+.place-1-img {
+  margin: auto; 
+  max-width: 100%;
+  padding: 10px 10px; 
+}
+.place-1-img img{
+}
+.destination {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+
+}
+
+
   a:hover,
   a.active {
     background: none;
